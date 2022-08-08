@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+</head>
+<body>
+    <h3>Register Form</h3>
+    <form>
+        <label id="firstName">FirstName</label>
+        <input for="firstName" type="text" placeholder="Enter first name"
+        required autofocs pattern="[a-z A-Z]{4-30}"/>
+        <br/>
+        <label id="lastName">LastName</label>
+        <input for="lastName" type="text" placeholder="Enter last name"/>
+        <br/>
+        <label id="password">Password</label>
+        <input for="password" type="password" placeholder="Enter min 8 char password"/>
+        <br/>
+        <label id="dob">DateofBirth</label>
+        <input type="date" for="dob" placeholder="enter dob">
+        <br/>
+        <label id="gender">Gender</label> <br/>
+        <label>Male</label>
+        <input type="radio" for="gender">
+        <label>Female</label> <br/>
+        <input type="radio" for="gender"><br/>
+        <label id="email">Email</label>
+        <input for="email" type="email" placeholder="enter email">
+        <br/>
+        <label id="contact">Contact No.</label>
+        <input for="contact" type="mobile" >
+    </form>
+</body>
+</html>
